@@ -1,0 +1,47 @@
+.news-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+}
+
+.news-card {
+  background-color: rgb(206, 220, 255);
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.search-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  background-color: rgb(233, 233, 233);
+  padding: 20px 20px;
+}
+
+.input {
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: none;
+}
+.btn {
+  background-color: rgb(141, 141, 141);
+  color: white;
+}
+
+h1 {
+  margin: 2em 5em;
+}
